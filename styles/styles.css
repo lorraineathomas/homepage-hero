@@ -1,0 +1,55 @@
+:root {
+    --back-color: rgb(198, 241, 241);
+    --pageFont: "Playwrite DE Grund", cursive;
+    --text-color: aqua;
+}
+
+body {
+  background-color: var(--back-color);
+  font-family: var(--pageFont);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+h1, h3, h6, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h6 {
+    background: white;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.btn {
+    background-color: black;
+    color: var(--text-color);
+    display: block !important;
+    margin: 30px auto !important;
+    padding: 5px;
+}
+
+.btn-contact {
+    width: 15%;
+}
+
+.project {
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0px;
+}

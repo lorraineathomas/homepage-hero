@@ -113,9 +113,17 @@ p {
   }
 
 .contact-section {
-    background-color: white !important;
-    border-radius: 10px !important;
-    padding: 20px !important;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-section-footer {
+    background: aqua !important;
+}
+
+.contact-section-btn {
+    border: none;
 }
 
 .contact-section-btn:hover {
@@ -130,4 +138,16 @@ p {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+a i {
+    color: black;
+}
+
+a i:hover {
+    color:#fff;
+}
+
+.bottom-line {
+    font-size: 14px;
 }
